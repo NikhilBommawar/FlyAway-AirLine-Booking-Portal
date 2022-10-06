@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WelcomePage</title>
+<style>
+body{
+background-image:url("a.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+</style>
+</head>
+<body 
+>
+<div align="center">
+<marquee direction="right"><h1><p style="color:Yellow">Welcome to FlyAway Portal</p></h1></marquee>
+        <h3><p style="color:Green">Where do you wish to fly ?</p></h3>
+     
+     <form action=FlightDetails>
+      <h4 style="color:tomato">From:<Select name="source"></h4>
+              <option value="other">Select</option>
+              <option value="Nagpur">Nagpur</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Hyderabad">Hyderabad</option>
+              <option value="Kolkata">Kolkata</option>
+              <option value="Chennai">Chennai</option>
+           </Select> 
+           
+       <h4 style="color:tomato">To: <Select name="destination"> </h4>
+              <option value="other">Select</option>
+              <option value="Nagpur">Nagpur</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Hyderabad">Hyderabad</option>
+              <option value="Kolkata">Kolkata</option>
+              <option value="Chennai">Chennai</option>
+            
+           </Select> 
+           
+          
+      <h4 style="color:tomato">Date of Journey: <input type="date" name="doj"> </h4>  
+      <br>
+       
+       <input type="submit" value="Submit" name="submit">
+    </form>
+    <br><br>
+    
+    <form action="AdminLogin.html">
+    <input type="submit" value="Admin Login">
+    </form>   
+  <br>
+  <marquee direction="left"><h1><p style="color:violet">This Portal is designed and develped by Er Nikhil Bommawar</p></h1></marquee>
+  </div>
+ 
+</body>
+</html>
